@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TRNStop" representedClassName="TRNStop" syncable="YES">
+        <attribute name="administritiveAreaCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bearing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="busStopType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cleanTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commonName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commonNameShort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="crossing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defaultWaitTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="easting" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="grandParentLocalityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gridType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="indicator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="landmark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="localityCentre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localityCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="modification" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modificationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="naptanCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="northing" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentLocalityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="revisionNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stopType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="suburb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timingStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="town" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uppercaseFirstLetterTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="userStops" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="TRNUserStop" predicateString="$FETCH_SOURCE .naptanCode == naptanCode"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="TRNStopDistance" representedClassName="TRNStopDistance" syncable="YES">
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="naptanCode" optional="YES" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="stops" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="TRNStop" predicateString="$FETCH_SOURCE .naptanCode == naptanCode"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="TRNUserStop" representedClassName="TRNUserStop" syncable="YES">
+        <attribute name="favourited" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastViewDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="naptanCode" optional="YES" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="stops" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="TRNStop" predicateString="$FETCH_SOURCE .naptanCode == naptanCode"/>
+        </fetchedProperty>
+    </entity>
+    <configuration name="StaticStoreConfiguration">
+        <memberEntity name="TRNStop"/>
+    </configuration>
+    <configuration name="UserStoreConfiguration">
+        <memberEntity name="TRNUserStop"/>
+        <memberEntity name="TRNStopDistance"/>
+    </configuration>
+    <elements>
+        <element name="TRNStop" positionX="-63" positionY="-18" width="128" height="584"/>
+        <element name="TRNStopDistance" positionX="-63" positionY="135" width="128" height="101"/>
+        <element name="TRNUserStop" positionX="-63" positionY="135" width="128" height="119"/>
+    </elements>
+</model>

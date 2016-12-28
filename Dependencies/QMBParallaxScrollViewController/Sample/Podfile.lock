@@ -1,0 +1,10 @@
+PODS:
+  - KIImagePager (1.1.0)
+
+DEPENDENCIES:
+  - KIImagePager (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  KIImagePager: f822b86d14f352140a39b5bb1f4e65d4697c7335
+
+COCOAPODS: 0.26.2

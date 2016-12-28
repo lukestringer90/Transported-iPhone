@@ -1,0 +1,62 @@
+PODS:
+  - INTULocationManager (1.2.0)
+  - KZPropertyMapper (2.0.2)
+  - LJSYourNextBus (3.0.0):
+    - ObjectiveGumbo
+  - Masonry (0.5.3)
+  - Mixpanel (2.3.6)
+  - ObjectiveGumbo (0.1)
+  - QMBParallaxScrollViewController (0.1)
+  - SQKDataKit (0.5.2):
+    - SQKDataKit/ContextManager (= 0.5.2)
+    - SQKDataKit/CoreDataOperation (= 0.5.2)
+    - SQKDataKit/FetchedTableViewController (= 0.5.2)
+    - SQKDataKit/ManagedObjectController (= 0.5.2)
+    - SQKDataKit/ManagedObjectExtensions (= 0.5.2)
+  - SQKDataKit/ContextManager (0.5.2)
+  - SQKDataKit/CoreDataOperation (0.5.2):
+    - SQKDataKit/ContextManager
+    - SQKDataKit/ManagedObjectExtensions
+  - SQKDataKit/FetchedTableViewController (0.5.2)
+  - SQKDataKit/ManagedObjectController (0.5.2)
+  - SQKDataKit/ManagedObjectExtensions (0.5.2)
+  - uservoice-iphone-sdk (3.1.0)
+
+DEPENDENCIES:
+  - INTULocationManager
+  - KZPropertyMapper (~> 2.0)
+  - LJSYourNextBus (from `https://github.com/lukestringer90/LJSYourNextBus.git`, tag `3.0.0`)
+  - Masonry (~> 0.4)
+  - Mixpanel
+  - QMBParallaxScrollViewController (from `Dependencies/QMBParallaxScrollViewController`)
+  - SQKDataKit (from `Dependencies/SQKDataKit`)
+  - uservoice-iphone-sdk
+
+EXTERNAL SOURCES:
+  LJSYourNextBus:
+    :git: https://github.com/lukestringer90/LJSYourNextBus.git
+    :tag: 3.0.0
+  QMBParallaxScrollViewController:
+    :path: Dependencies/QMBParallaxScrollViewController
+  SQKDataKit:
+    :path: Dependencies/SQKDataKit
+
+CHECKOUT OPTIONS:
+  LJSYourNextBus:
+    :git: https://github.com/lukestringer90/LJSYourNextBus.git
+    :tag: 3.0.0
+
+SPEC CHECKSUMS:
+  INTULocationManager: 022ea0ada74cc1b9ada12ba370d0439be567e50b
+  KZPropertyMapper: ae11fb4d357e49310fd74951f32f15479ddcfedb
+  LJSYourNextBus: a635f05609f7669e9ce00106399e24caabe92357
+  Masonry: 9f515466afe48632562342a40a1c224071a1a022
+  Mixpanel: dc56111f1b327b38e0ae5a805f33f5d0c9e7f7f2
+  ObjectiveGumbo: 0704c4930688132abb3d5df2000334f30504856f
+  QMBParallaxScrollViewController: 2da91693da05d0fa0b2d9788d55443d02a5d040c
+  SQKDataKit: 3622b3bdfd67e889938ab808062212043dae3bd2
+  uservoice-iphone-sdk: 67484c4eb47a37237fa1d552532fdad96b0142ea
+
+PODFILE CHECKSUM: 30190a30600b7c972182ddee3529f33b03a32bf0
+
+COCOAPODS: 1.1.1

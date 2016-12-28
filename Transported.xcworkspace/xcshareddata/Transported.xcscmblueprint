@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7AE28BE8E026997BED4DC1C8462E155468D9505D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2D65E95D850D10075313805CD36D4860BAF1A113" : 9223372036854775807,
+    "ACF84FC39E20AA1C0D5F1B2E453F8C0EA768EBB7" : 0,
+    "7AE28BE8E026997BED4DC1C8462E155468D9505D" : 0,
+    "D3BB94670B6CEF9A8A4C6FAA1DBE0D5025BFEF3A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B92A39A8-7F4C-4EB1-9456-AB3FB90306BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2D65E95D850D10075313805CD36D4860BAF1A113" : "Transported\/Transported\/Dependencies\/QMBParallaxScrollViewController\/",
+    "ACF84FC39E20AA1C0D5F1B2E453F8C0EA768EBB7" : "Transported\/LJSYourNextBus\/",
+    "7AE28BE8E026997BED4DC1C8462E155468D9505D" : "Transported\/",
+    "D3BB94670B6CEF9A8A4C6FAA1DBE0D5025BFEF3A" : "Transported\/Transported\/Dependencies\/SQKDataKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Transported",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Transported\/Transported.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lukestringer90\/QMBParallaxScrollViewController",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D65E95D850D10075313805CD36D4860BAF1A113"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:lukestringer90\/transport-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7AE28BE8E026997BED4DC1C8462E155468D9505D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lukestringer90\/LJSYourNextBus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ACF84FC39E20AA1C0D5F1B2E453F8C0EA768EBB7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:3squared\/SQKDataKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3BB94670B6CEF9A8A4C6FAA1DBE0D5025BFEF3A"
+    }
+  ]
+}
